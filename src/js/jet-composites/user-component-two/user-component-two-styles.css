@@ -1,0 +1,11 @@
+user-component-two:not(.oj-complete){
+  visibility: hidden;
+}
+
+.display-view-two {
+  width: 400px;
+  border-radius: 5px;
+  background-color: #c5c5c5;
+  margin: 20px auto;
+  padding: 20px;
+}

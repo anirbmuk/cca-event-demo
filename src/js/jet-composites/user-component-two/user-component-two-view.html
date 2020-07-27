@@ -1,0 +1,6 @@
+<div class="oj-margin display-view-two">
+  <h2><oj-bind-text value="[[userComponentTwoValue]]"></oj-bind-text></h2>
+  <oj-bind-text value="[[showValue]]"></oj-bind-text>
+  <user-component-three value="Third Component" component-id="[[componentId + '_child']]" :id="[[componentId + '_child']]">
+  </user-component-three>
+</div>

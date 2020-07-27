@@ -1,0 +1,11 @@
+user-component-three:not(.oj-complete){
+  visibility: hidden;
+}
+
+.display-view-three {
+  width: 300px;
+  border-radius: 5px;
+  background-color: #a5a5a5;
+  margin: 20px auto;
+  padding: 20px;
+}
